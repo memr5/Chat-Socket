@@ -42,6 +42,7 @@ def new_conversation(conn, addr):
 
 def start_chatting(conn1, addr1, conn2, addr2):
     try:
+        sleep(1)
         conn1.send("You are Connected, Say hi!".encode('utf-8'))
         conn2.send("You are Connected, Say hi!".encode('utf-8'))
         input_stream_list = [conn1, conn2]
