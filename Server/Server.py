@@ -1,3 +1,12 @@
+
+"""
+-------------  Chat-Socket  --------------
+> More Interests supported in this version
+> User can have multiple chat sessions one
+  after the other in one go
+------------ author : @memr5 -------------
+"""
+
 import socket
 import select
 import random
